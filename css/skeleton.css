@@ -438,10 +438,28 @@ html {
 
 
  #leftCol {
-  background: #999;
+  /*background: #999;*/
   opacity: .8;
   height:100vh;
   color: #ecf0f1;
+}
+
+#logoName{
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  /*text-align: center;*/
+  font-size: 10rem;
+
+
+}
+#slogan{
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  font-size: 3rem;
+  /*text-align: center;*/
+
 }
 
 #rightCol {
