@@ -488,17 +488,20 @@ footer {
   bottom: 0;
   opacity: .75;
   background: #000;
-  height: 30px;
+  height: 12px;
   width: 100%;
   color: white;
   text-align: right;  
-  padding: 15px;
+  padding: 25px;
+  font-size: 2rem;
+
 }
 
 .navBtn {
   margin-left: 15px;
   margin-right: 15px;
   padding-top: 5px;
+  margin-bottom: 20px;
 }
 
 
