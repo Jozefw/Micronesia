@@ -484,7 +484,7 @@ html {
 
 
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   opacity: .85;
   background: #000;
