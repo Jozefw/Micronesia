@@ -3,7 +3,7 @@ $( function() {
 		aboutPage$ = $( '#aboutPage' ),
 		teamPage$ = $( '#teamPage' );
 
-	var fadeInSpeed = 500,
+	var fadeInSpeed = 550,
 		currentlyShowing = "";
 
 	navBtns$.on( 'click', function(e) {
