@@ -461,7 +461,8 @@ html {
   width: 100%;
   /*text-align: center;*/
   font-size: 8rem;
-  color: #ecf0f1;
+  text-shadow: 2px 2px #2c3e50;
+  color: white;
 
 
 }
@@ -471,13 +472,14 @@ html {
   width: 100%;
   font-size: 2rem;
   /*text-align: center;*/
+  text-shadow: 2px 2px #2c3e50;
   color: white;
-
 }
 
 #rightCol {
   /* background: #aaa;  */
   color: white;
+  text-shadow: 2px 2px #2c3e50;
   opacity: 1.0;
   height: 100vh;
 }
@@ -488,12 +490,12 @@ footer {
   bottom: 0;
   opacity: .85;
   background: #000;
-  height: 12px;
+  height: 8px;
   width: 100%;
   color: white;
   text-align: right;  
-  padding: 25px;
-  font-size: 2rem;
+  padding: 8px 25px 25px 25px;
+  font-size: 1.5rem;
 
 }
 
@@ -502,6 +504,9 @@ footer {
   margin-right: 15px;
   padding-top: 5px;
   margin-bottom: 20px;
+  color: #0FA0CE;
+  cursor: pointer;
+  cursor: hand;
 }
 
 
@@ -520,3 +525,18 @@ hr {
   border-radius: 128px;
 }
 
+i {
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-top: 5px;
+  margin-bottom: 20px;
+}
+
+.page {
+  text-shadow: 2px 2px #2c3e50;
+  font-size: 1.5rem;
+}
+
+h1 h2 h3 h4 h5 h6 {
+  text-shadow: 2px 2px #2c3e50;
+}

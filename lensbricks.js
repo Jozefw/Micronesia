@@ -6,6 +6,7 @@ $( function() {
 	var fadeInSpeed = 550,
 		currentlyShowing = "";
 
+
 	navBtns$.on( 'click', function(e) {
 		var who = $(e.target).text();
 		console.log( 'click on ' + who );
