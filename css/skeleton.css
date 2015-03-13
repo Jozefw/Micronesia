@@ -446,7 +446,7 @@ html {
 #leftCol {
   /*background: #999;*/
   opacity: .8;
-  height:100vh;
+ /* height:100vh;*/
 }
 
 #siteTitle {
@@ -481,7 +481,7 @@ html {
   color: white;
   text-shadow: 2px 2px #2c3e50;
   opacity: 1.0;
-  height: 100vh;
+ /* height: 100vh;*/
 }
 
 
@@ -537,6 +537,29 @@ i {
   font-size: 1.5rem;
 }
 
-h1 h2 h3 h4 h5 h6 {
+h1, h2, h3, h4, h5, h6 {
   text-shadow: 2px 2px #2c3e50;
 }
+
+/*over rides normalize.css as the default color wont show*/
+
+#mc-email {
+  color: black;
+}
+
+#mc_embed_signup, #mc_field_group {
+  background: none !important;
+  color: white !important;
+}
+#mce-EMAIL {
+  color: white !important;
+  background: #333 !important;
+}
+
+#mc-embedded-subscribe {
+  background: #aaa;
+  color: black;
+}
+
+
+
