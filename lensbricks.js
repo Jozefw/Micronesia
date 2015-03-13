@@ -3,12 +3,16 @@ $( function() {
 		aboutPage$ = $( '#aboutPage' ),
 		teamPage$ = $( '#teamPage' );
 
-	var fadeInSpeed = 550,
+	var isFirstTime = true,
+		fadeInSpeed = 550,
 		currentlyShowing = "";
+
+	var startURL = window.location.hash;
 
 
 	navBtns$.on( 'click', function(e) {
 		var who = $(e.target).text();
+
 		console.log( 'click on ' + who );
 
 
@@ -30,6 +34,12 @@ $( function() {
 			currentlyShowing = 'team';
 		}
 
+		if ( isFirstTime ) {
+			$( '#bkgdMain' ).fadeOut( 500 );
+			isFirstTime = false;
+		}
+
+		window.location.hash =  startURL + ( '#' + currentlyShowing );
 	});
 
 });
