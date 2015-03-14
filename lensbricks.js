@@ -26,7 +26,7 @@ $( function() {
 		}
 
 		if ( who === 'about' ) {
-			aboutPage$.show( fadeInSpeed);
+			aboutPage$.show( fadeInSpeed );
 			currentlyShowing = 'about';
 		} else
 		if ( who === 'team' ) {

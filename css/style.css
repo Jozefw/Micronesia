@@ -1,6 +1,7 @@
 /* Scaling full-page background */
 .container {
   z-index: 3;
+  overflow:auto;
 }
 
 #bkgdBlur {
@@ -38,11 +39,7 @@
   margin-top:30%;
 }
 
-#leftCol {
-  /*background: #999;*/
-  opacity: .8;
- /* height:100vh;*/
-}
+
 
 #siteTitle {
   height: 60%;
@@ -55,7 +52,9 @@
   margin-left: auto;
   width: 100%;
   /*text-align: center;*/
-  font-size: 8rem;
+  font-size: 6rem;
+  font-weight: 900;
+  letter-spacing: 4.5px;
   text-shadow: 2px 2px #2c3e50;
   color: white;
 
@@ -65,10 +64,12 @@
   margin-right: auto;
   margin-left: auto;
   width: 100%;
-  font-size: 2rem;
+  font-size: 4rem;
+  letter-spacing: 4.5px;
   /*text-align: center;*/
   text-shadow: 2px 2px #2c3e50;
   color: white;
+  text-align: center;
 }
 
 #rightCol {
@@ -77,6 +78,14 @@
   text-shadow: 2px 2px #2c3e50;
   opacity: 1.0;
  /* height: 100vh;*/
+ float: right;
+}
+
+#leftCol {
+  /*background: #999;*/
+  opacity: .8;
+ /* height:100vh;*/
+ float: left;
 }
 
 
